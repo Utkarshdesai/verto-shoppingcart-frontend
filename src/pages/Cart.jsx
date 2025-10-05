@@ -63,7 +63,7 @@ const Cart = ({cart , setcart}) => {
 
         try {
          
-            const checkoutcart = await fetch('http://localhost:5000/api/v1/checkout' , {
+            const checkoutcart = await fetch('https://verto-backend-tv7u.onrender.com/api/v1/checkout' , {
             method:'POST',
              headers: {
                 'Content-Type': 'application/json'

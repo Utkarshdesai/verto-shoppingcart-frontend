@@ -13,7 +13,7 @@ const Home = ({addToCart ,cart}) => {
            try {
                
                setloading(true)
-               const data = await fetch('http://localhost:5000/api/v1/product')
+               const data = await fetch('https://verto-backend-tv7u.onrender.com/api/v1/product')
                const res = await data.json()
                console.log(res)
                setproductdata(res.products) 
