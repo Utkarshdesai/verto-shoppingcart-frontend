@@ -13,7 +13,7 @@ A React 19 application scaffolded with Vite 7 for fast development, featuring cl
 
 ## Backend
 
-- Repository: [Backend Repository](<add-your-backend-github-url-here>)
+- Repository: [Backend Repository](<https://github.com/Utkarshdesai/verto-backend>)
 - Local base URL: `http://localhost:5000`
 
 API endpoints used by this frontend:
